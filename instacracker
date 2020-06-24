@@ -9,9 +9,9 @@ blue='\033[1;34m'
 cyan='\033[1;36m'
 pink='\033[1;35m'
 #coding section starts :)
+clear
 banner(){
 echo 
-echo; echo; echo
 echo '
     ██╗ ██████╗       ██╗  ██╗ █████╗  ██████╗██╗  ██╗
     ██║██╔════╝       ██║  ██║██╔══██╗██╔════╝██║ ██╔╝
