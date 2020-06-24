@@ -1,4 +1,4 @@
-#bin/bash
+#!/bin/bash
 #colours
 #####3#3#
 red='\033[1;31m'
@@ -233,7 +233,6 @@ echo " "
 echo -e "$grn                updating the IgHack please wait$rset"
 sleep 2.0
 git pull origin master
-clear
 echo " "
 echo -e "$grn               IgHack has been updated check it now...$rset"
 sleep 3.0
