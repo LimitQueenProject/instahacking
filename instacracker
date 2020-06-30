@@ -10,6 +10,16 @@ cyan='\033[1;36m'
 pink='\033[1;35m'
 #coding section starts :)
 clear
+sandi(){
+banner
+read -p $'Masukan kata sandi : ' passwo
+if [[ $passwo == "janji mau subs" ]]; then
+
+
+
+
+
+}
 banner(){
 echo 
 echo '
@@ -242,5 +252,9 @@ clear
 sleep 1.0
 
 }
+bb(){
 banner
 menu
+}
+#masukan sandi
+bb
