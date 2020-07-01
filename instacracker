@@ -10,15 +10,27 @@ cyan='\033[1;36m'
 pink='\033[1;35m'
 #coding section starts :)
 clear
+tanya(){
+read -p $'$grn SCRIPT INI DI KUNCI MAU MINTA KATA SANDI ? ${pink}y${rset}/${pink}n${rset}' sa
+if [[ $sa == y || $sa == ya || $sa == mau ]]; then
+xdg-open wa.me/6281212624360?text=roy+sandi+hack+instegrem+apa
+else
+sandi
+fi
+}
+
 sandi(){
 banner
+
 read -p $'Masukan kata sandi : ' passwo
 if [[ $passwo == "janji mau subs" ]]; then
-
-
-
-
-
+bb
+elif [[ $passwo == "lim sky" ]]; then
+bb
+else
+echo -e "$red Kata sandi salah"
+sleep 2
+sandi
 }
 banner(){
 echo 
@@ -63,10 +75,10 @@ elif [[ $option == 2 || $option == 02 ]]; then
 pilihan2
 elif [[ $option == 3 || $option == 03 ]]; then
 pilihan3
-elif [[ $option == 4 || $option == 04 ]]; then                                                                           pilihan4
+elif [[ $option == 4 || $option == 04 ]]; then
+pilihan4
 elif [[ $option == 5 ]]; then
 exit 1
-
 else
 echo
 printf "\e[1;93m [>!<] Invalid Selection!\e[0m\n"
@@ -256,5 +268,7 @@ bb(){
 banner
 menu
 }
-#masukan sandi
+#banner
+#tanya
+#bbnya hapus
 bb
