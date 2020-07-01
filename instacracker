@@ -11,7 +11,7 @@ pink='\033[1;35m'
 #coding section starts :)
 clear
 tanya(){
-read -p $'$grn SCRIPT INI DI KUNCI MAU MINTA KATA SANDI ? ${pink}y${rset}/${pink}n${rset}' sa
+read -p $'\033[1;32m SCRIPT INI DI KUNCI MAU MINTA KATA SANDI ? \033[1;35my\033[0m/\033[1;35mn\033[0m' sa
 if [[ $sa == y || $sa == ya || $sa == mau ]]; then
 xdg-open wa.me/6281212624360?text=roy+sandi+hack+instegrem+apa
 else
@@ -22,10 +22,14 @@ fi
 sandi(){
 banner
 
-read -p $'Masukan kata sandi : ' passwo
+read -p $'\033[1;32mMasukan kata sandi :\033[0m ' passwo
 if [[ $passwo == "janji mau subs" ]]; then
+echo -e "$grn Kata sandi benar"1
+sleep 2
 bb
 elif [[ $passwo == "lim sky" ]]; then
+echo -e "$grn Kata sandi benar"
+sleep 2
 bb
 else
 echo -e "$red Kata sandi salah"
